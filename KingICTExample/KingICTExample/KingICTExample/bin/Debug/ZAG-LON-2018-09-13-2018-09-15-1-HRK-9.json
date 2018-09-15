@@ -1,0 +1,864 @@
+{
+  "currency" : "HRK",
+  "results" : [ {
+    "itineraries" : [ {
+      "outbound" : {
+        "duration" : "24:15",
+        "flights" : [ {
+          "departs_at" : "2018-09-13T18:05",
+          "arrives_at" : "2018-09-13T19:45",
+          "origin" : {
+            "airport" : "ZAG"
+          },
+          "destination" : {
+            "airport" : "WAW"
+          },
+          "marketing_airline" : "LO",
+          "operating_airline" : "LO",
+          "flight_number" : "614",
+          "aircraft" : "E95",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "V",
+            "seats_remaining" : 2
+          }
+        }, {
+          "departs_at" : "2018-09-14T15:30",
+          "arrives_at" : "2018-09-14T17:20",
+          "origin" : {
+            "airport" : "WAW"
+          },
+          "destination" : {
+            "airport" : "LHR",
+            "terminal" : "2"
+          },
+          "marketing_airline" : "LO",
+          "operating_airline" : "LO",
+          "flight_number" : "279",
+          "aircraft" : "7M8",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "V",
+            "seats_remaining" : 2
+          }
+        } ]
+      },
+      "inbound" : {
+        "duration" : "16:10",
+        "flights" : [ {
+          "departs_at" : "2018-09-15T18:10",
+          "arrives_at" : "2018-09-15T21:40",
+          "origin" : {
+            "airport" : "LHR",
+            "terminal" : "2"
+          },
+          "destination" : {
+            "airport" : "WAW"
+          },
+          "marketing_airline" : "LO",
+          "operating_airline" : "LO",
+          "flight_number" : "280",
+          "aircraft" : "7M8",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "W",
+            "seats_remaining" : 2
+          }
+        }, {
+          "departs_at" : "2018-09-16T09:40",
+          "arrives_at" : "2018-09-16T11:20",
+          "origin" : {
+            "airport" : "WAW"
+          },
+          "destination" : {
+            "airport" : "ZAG"
+          },
+          "marketing_airline" : "LO",
+          "operating_airline" : "LO",
+          "flight_number" : "611",
+          "aircraft" : "E75",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "W",
+            "seats_remaining" : 2
+          }
+        } ]
+      }
+    } ],
+    "fare" : {
+      "total_price" : "1993.00",
+      "price_per_adult" : {
+        "total_fare" : "1993.00",
+        "tax" : "1005.00"
+      },
+      "restrictions" : {
+        "refundable" : false,
+        "change_penalties" : true
+      }
+    }
+  }, {
+    "itineraries" : [ {
+      "outbound" : {
+        "duration" : "06:35",
+        "flights" : [ {
+          "departs_at" : "2018-09-13T17:05",
+          "arrives_at" : "2018-09-13T18:10",
+          "origin" : {
+            "airport" : "ZAG"
+          },
+          "destination" : {
+            "airport" : "MUC",
+            "terminal" : "2"
+          },
+          "marketing_airline" : "LH",
+          "operating_airline" : "CL",
+          "flight_number" : "1715",
+          "aircraft" : "E95",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "V",
+            "seats_remaining" : 4
+          }
+        }, {
+          "departs_at" : "2018-09-13T21:35",
+          "arrives_at" : "2018-09-13T22:40",
+          "origin" : {
+            "airport" : "MUC",
+            "terminal" : "2"
+          },
+          "destination" : {
+            "airport" : "LHR",
+            "terminal" : "2"
+          },
+          "marketing_airline" : "LH",
+          "operating_airline" : "LH",
+          "flight_number" : "2484",
+          "aircraft" : "320",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "V",
+            "seats_remaining" : 4
+          }
+        } ]
+      },
+      "inbound" : {
+        "duration" : "04:40",
+        "flights" : [ {
+          "departs_at" : "2018-09-15T16:30",
+          "arrives_at" : "2018-09-15T19:05",
+          "origin" : {
+            "airport" : "LHR",
+            "terminal" : "2"
+          },
+          "destination" : {
+            "airport" : "FRA",
+            "terminal" : "1"
+          },
+          "marketing_airline" : "LH",
+          "operating_airline" : "LH",
+          "flight_number" : "911",
+          "aircraft" : "32A",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "W",
+            "seats_remaining" : 9
+          }
+        }, {
+          "departs_at" : "2018-09-15T20:45",
+          "arrives_at" : "2018-09-15T22:10",
+          "origin" : {
+            "airport" : "FRA",
+            "terminal" : "1"
+          },
+          "destination" : {
+            "airport" : "ZAG"
+          },
+          "marketing_airline" : "LH",
+          "operating_airline" : "OU",
+          "flight_number" : "6002",
+          "aircraft" : "319",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "W",
+            "seats_remaining" : 4
+          }
+        } ]
+      }
+    } ],
+    "fare" : {
+      "total_price" : "3274.00",
+      "price_per_adult" : {
+        "total_fare" : "3274.00",
+        "tax" : "1597.00"
+      },
+      "restrictions" : {
+        "refundable" : false,
+        "change_penalties" : true
+      }
+    }
+  }, {
+    "itineraries" : [ {
+      "outbound" : {
+        "duration" : "15:30",
+        "flights" : [ {
+          "departs_at" : "2018-09-13T17:50",
+          "arrives_at" : "2018-09-13T18:45",
+          "origin" : {
+            "airport" : "ZAG"
+          },
+          "destination" : {
+            "airport" : "VIE"
+          },
+          "marketing_airline" : "OS",
+          "operating_airline" : "OU",
+          "flight_number" : "7054",
+          "aircraft" : "DH4",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "B",
+            "seats_remaining" : 4
+          }
+        }, {
+          "departs_at" : "2018-09-14T06:50",
+          "arrives_at" : "2018-09-14T08:20",
+          "origin" : {
+            "airport" : "VIE"
+          },
+          "destination" : {
+            "airport" : "LHR",
+            "terminal" : "2"
+          },
+          "marketing_airline" : "OS",
+          "operating_airline" : "OS",
+          "flight_number" : "451",
+          "aircraft" : "321",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "B",
+            "seats_remaining" : 4
+          }
+        } ]
+      },
+      "inbound" : {
+        "duration" : "17:35",
+        "flights" : [ {
+          "departs_at" : "2018-09-15T19:30",
+          "arrives_at" : "2018-09-15T22:45",
+          "origin" : {
+            "airport" : "LHR",
+            "terminal" : "2"
+          },
+          "destination" : {
+            "airport" : "VIE"
+          },
+          "marketing_airline" : "OS",
+          "operating_airline" : "OS",
+          "flight_number" : "456",
+          "aircraft" : "320",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "Q",
+            "seats_remaining" : 9
+          }
+        }, {
+          "departs_at" : "2018-09-16T13:10",
+          "arrives_at" : "2018-09-16T14:05",
+          "origin" : {
+            "airport" : "VIE"
+          },
+          "destination" : {
+            "airport" : "ZAG"
+          },
+          "marketing_airline" : "OS",
+          "operating_airline" : "JP",
+          "flight_number" : "683",
+          "aircraft" : "CR9",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "Q",
+            "seats_remaining" : 9
+          }
+        } ]
+      }
+    } ],
+    "fare" : {
+      "total_price" : "5386.00",
+      "price_per_adult" : {
+        "total_fare" : "5386.00",
+        "tax" : "2123.00"
+      },
+      "restrictions" : {
+        "refundable" : false,
+        "change_penalties" : true
+      }
+    }
+  }, {
+    "itineraries" : [ {
+      "outbound" : {
+        "duration" : "19:15",
+        "flights" : [ {
+          "departs_at" : "2018-09-13T13:00",
+          "arrives_at" : "2018-09-13T14:35",
+          "origin" : {
+            "airport" : "ZAG"
+          },
+          "destination" : {
+            "airport" : "CGN",
+            "terminal" : "1"
+          },
+          "marketing_airline" : "EW",
+          "operating_airline" : "4U",
+          "flight_number" : "973",
+          "aircraft" : "319",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "M",
+            "seats_remaining" : 9
+          }
+        }, {
+          "departs_at" : "2018-09-14T07:00",
+          "arrives_at" : "2018-09-14T07:15",
+          "origin" : {
+            "airport" : "CGN",
+            "terminal" : "1"
+          },
+          "destination" : {
+            "airport" : "STN"
+          },
+          "marketing_airline" : "EW",
+          "operating_airline" : "EW",
+          "flight_number" : "354",
+          "aircraft" : "319",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "M",
+            "seats_remaining" : 9
+          }
+        } ]
+      },
+      "inbound" : {
+        "duration" : "07:15",
+        "flights" : [ {
+          "departs_at" : "2018-09-15T08:05",
+          "arrives_at" : "2018-09-15T10:30",
+          "origin" : {
+            "airport" : "LHR",
+            "terminal" : "2"
+          },
+          "destination" : {
+            "airport" : "DUS"
+          },
+          "marketing_airline" : "EW",
+          "operating_airline" : "EW",
+          "flight_number" : "9469",
+          "aircraft" : "320",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "B",
+            "seats_remaining" : 9
+          }
+        }, {
+          "departs_at" : "2018-09-15T14:10",
+          "arrives_at" : "2018-09-15T16:20",
+          "origin" : {
+            "airport" : "DUS"
+          },
+          "destination" : {
+            "airport" : "ZAG"
+          },
+          "marketing_airline" : "EW",
+          "operating_airline" : "HE",
+          "flight_number" : "9900",
+          "aircraft" : "DH4",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "B",
+            "seats_remaining" : 9
+          }
+        } ]
+      }
+    } ],
+    "fare" : {
+      "total_price" : "5655.00",
+      "price_per_adult" : {
+        "total_fare" : "5655.00",
+        "tax" : "745.00"
+      },
+      "restrictions" : {
+        "refundable" : false,
+        "change_penalties" : true
+      }
+    }
+  }, {
+    "itineraries" : [ {
+      "outbound" : {
+        "duration" : "07:00",
+        "flights" : [ {
+          "departs_at" : "2018-09-13T15:10",
+          "arrives_at" : "2018-09-13T17:10",
+          "origin" : {
+            "airport" : "ZAG"
+          },
+          "destination" : {
+            "airport" : "CDG",
+            "terminal" : "2E"
+          },
+          "marketing_airline" : "AF",
+          "operating_airline" : "AF",
+          "flight_number" : "1561",
+          "aircraft" : "319",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "U",
+            "seats_remaining" : 6
+          }
+        }, {
+          "departs_at" : "2018-09-13T20:45",
+          "arrives_at" : "2018-09-13T21:10",
+          "origin" : {
+            "airport" : "CDG",
+            "terminal" : "2E"
+          },
+          "destination" : {
+            "airport" : "LHR",
+            "terminal" : "4"
+          },
+          "marketing_airline" : "AF",
+          "operating_airline" : "AF",
+          "flight_number" : "1380",
+          "aircraft" : "319",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "U",
+            "seats_remaining" : 6
+          }
+        } ]
+      },
+      "inbound" : {
+        "duration" : "12:40",
+        "flights" : [ {
+          "departs_at" : "2018-09-15T06:40",
+          "arrives_at" : "2018-09-15T09:00",
+          "origin" : {
+            "airport" : "LHR",
+            "terminal" : "4"
+          },
+          "destination" : {
+            "airport" : "CDG",
+            "terminal" : "2E"
+          },
+          "marketing_airline" : "AF",
+          "operating_airline" : "AF",
+          "flight_number" : "1381",
+          "aircraft" : "319",
+          "booking_info" : {
+            "travel_class" : "BUSINESS",
+            "booking_code" : "D",
+            "seats_remaining" : 1
+          }
+        }, {
+          "departs_at" : "2018-09-15T18:30",
+          "arrives_at" : "2018-09-15T20:20",
+          "origin" : {
+            "airport" : "CDG",
+            "terminal" : "2D"
+          },
+          "destination" : {
+            "airport" : "ZAG"
+          },
+          "marketing_airline" : "AF",
+          "operating_airline" : "OU",
+          "flight_number" : "5074",
+          "aircraft" : "319",
+          "booking_info" : {
+            "travel_class" : "BUSINESS",
+            "booking_code" : "D",
+            "seats_remaining" : 1
+          }
+        } ]
+      }
+    } ],
+    "fare" : {
+      "total_price" : "5730.00",
+      "price_per_adult" : {
+        "total_fare" : "5730.00",
+        "tax" : "1052.00"
+      },
+      "restrictions" : {
+        "refundable" : false,
+        "change_penalties" : true
+      }
+    }
+  }, {
+    "itineraries" : [ {
+      "outbound" : {
+        "duration" : "05:00",
+        "flights" : [ {
+          "departs_at" : "2018-09-13T15:25",
+          "arrives_at" : "2018-09-13T17:30",
+          "origin" : {
+            "airport" : "ZAG"
+          },
+          "destination" : {
+            "airport" : "AMS"
+          },
+          "marketing_airline" : "KL",
+          "operating_airline" : "KL",
+          "flight_number" : "1942",
+          "aircraft" : "E90",
+          "booking_info" : {
+            "travel_class" : "BUSINESS",
+            "booking_code" : "D",
+            "seats_remaining" : 1
+          }
+        }, {
+          "departs_at" : "2018-09-13T19:05",
+          "arrives_at" : "2018-09-13T19:25",
+          "origin" : {
+            "airport" : "AMS"
+          },
+          "destination" : {
+            "airport" : "LHR",
+            "terminal" : "4"
+          },
+          "marketing_airline" : "KL",
+          "operating_airline" : "KL",
+          "flight_number" : "1027",
+          "aircraft" : "E90",
+          "booking_info" : {
+            "travel_class" : "BUSINESS",
+            "booking_code" : "D",
+            "seats_remaining" : 1
+          }
+        } ]
+      },
+      "inbound" : {
+        "duration" : "07:15",
+        "flights" : [ {
+          "departs_at" : "2018-09-15T08:40",
+          "arrives_at" : "2018-09-15T11:00",
+          "origin" : {
+            "airport" : "LHR",
+            "terminal" : "4"
+          },
+          "destination" : {
+            "airport" : "AMS"
+          },
+          "marketing_airline" : "KL",
+          "operating_airline" : "KL",
+          "flight_number" : "1002",
+          "aircraft" : "73H",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "W",
+            "seats_remaining" : 1
+          }
+        }, {
+          "departs_at" : "2018-09-15T15:05",
+          "arrives_at" : "2018-09-15T16:55",
+          "origin" : {
+            "airport" : "AMS"
+          },
+          "destination" : {
+            "airport" : "ZAG"
+          },
+          "marketing_airline" : "KL",
+          "operating_airline" : "KL",
+          "flight_number" : "1943",
+          "aircraft" : "E90",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "W",
+            "seats_remaining" : 1
+          }
+        } ]
+      }
+    } ],
+    "fare" : {
+      "total_price" : "5779.00",
+      "price_per_adult" : {
+        "total_fare" : "5779.00",
+        "tax" : "831.00"
+      },
+      "restrictions" : {
+        "refundable" : false,
+        "change_penalties" : true
+      }
+    }
+  }, {
+    "itineraries" : [ {
+      "outbound" : {
+        "duration" : "05:10",
+        "flights" : [ {
+          "departs_at" : "2018-09-13T18:00",
+          "arrives_at" : "2018-09-13T19:30",
+          "origin" : {
+            "airport" : "ZAG"
+          },
+          "destination" : {
+            "airport" : "FRA",
+            "terminal" : "1"
+          },
+          "marketing_airline" : "OU",
+          "operating_airline" : "OU",
+          "flight_number" : "414",
+          "aircraft" : "319",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "Y",
+            "seats_remaining" : 9
+          }
+        }, {
+          "departs_at" : "2018-09-13T21:30",
+          "arrives_at" : "2018-09-13T22:10",
+          "origin" : {
+            "airport" : "FRA",
+            "terminal" : "1"
+          },
+          "destination" : {
+            "airport" : "LHR",
+            "terminal" : "2"
+          },
+          "marketing_airline" : "OU",
+          "operating_airline" : "LH",
+          "flight_number" : "5488",
+          "aircraft" : "32A",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "Y",
+            "seats_remaining" : 4
+          }
+        } ]
+      },
+      "inbound" : {
+        "duration" : "02:15",
+        "flights" : [ {
+          "departs_at" : "2018-09-15T16:40",
+          "arrives_at" : "2018-09-15T19:55",
+          "origin" : {
+            "airport" : "LHR",
+            "terminal" : "2"
+          },
+          "destination" : {
+            "airport" : "ZAG"
+          },
+          "marketing_airline" : "OU",
+          "operating_airline" : "OU",
+          "flight_number" : "491",
+          "aircraft" : "320",
+          "booking_info" : {
+            "travel_class" : "BUSINESS",
+            "booking_code" : "Z",
+            "seats_remaining" : 2
+          }
+        } ]
+      }
+    } ],
+    "fare" : {
+      "total_price" : "5807.00",
+      "price_per_adult" : {
+        "total_fare" : "5807.00",
+        "tax" : "1683.00"
+      },
+      "restrictions" : {
+        "refundable" : false,
+        "change_penalties" : true
+      }
+    }
+  }, {
+    "itineraries" : [ {
+      "outbound" : {
+        "duration" : "15:45",
+        "flights" : [ {
+          "departs_at" : "2018-09-13T20:05",
+          "arrives_at" : "2018-09-13T23:20",
+          "origin" : {
+            "airport" : "ZAG"
+          },
+          "destination" : {
+            "airport" : "IST",
+            "terminal" : "I"
+          },
+          "marketing_airline" : "TK",
+          "operating_airline" : "TK",
+          "flight_number" : "1056",
+          "aircraft" : "320",
+          "booking_info" : {
+            "travel_class" : "BUSINESS",
+            "booking_code" : "C",
+            "seats_remaining" : 1
+          }
+        }, {
+          "departs_at" : "2018-09-14T08:40",
+          "arrives_at" : "2018-09-14T10:50",
+          "origin" : {
+            "airport" : "SAW"
+          },
+          "destination" : {
+            "airport" : "LGW",
+            "terminal" : "S"
+          },
+          "marketing_airline" : "TK",
+          "operating_airline" : "TK",
+          "flight_number" : "1963",
+          "aircraft" : "73H",
+          "booking_info" : {
+            "travel_class" : "BUSINESS",
+            "booking_code" : "C",
+            "seats_remaining" : 1
+          }
+        } ]
+      },
+      "inbound" : {
+        "duration" : "12:55",
+        "flights" : [ {
+          "departs_at" : "2018-09-15T18:25",
+          "arrives_at" : "2018-09-16T00:20",
+          "origin" : {
+            "airport" : "LHR",
+            "terminal" : "2"
+          },
+          "destination" : {
+            "airport" : "IST",
+            "terminal" : "I"
+          },
+          "marketing_airline" : "TK",
+          "operating_airline" : "TK",
+          "flight_number" : "1972",
+          "aircraft" : "77W",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "T",
+            "seats_remaining" : 4
+          }
+        }, {
+          "departs_at" : "2018-09-16T07:05",
+          "arrives_at" : "2018-09-16T08:20",
+          "origin" : {
+            "airport" : "IST",
+            "terminal" : "I"
+          },
+          "destination" : {
+            "airport" : "ZAG"
+          },
+          "marketing_airline" : "TK",
+          "operating_airline" : "TK",
+          "flight_number" : "1053",
+          "aircraft" : "32B",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "T",
+            "seats_remaining" : 4
+          }
+        } ]
+      }
+    } ],
+    "fare" : {
+      "total_price" : "6640.00",
+      "price_per_adult" : {
+        "total_fare" : "6640.00",
+        "tax" : "2194.00"
+      },
+      "restrictions" : {
+        "refundable" : false,
+        "change_penalties" : true
+      }
+    }
+  }, {
+    "itineraries" : [ {
+      "outbound" : {
+        "duration" : "15:10",
+        "flights" : [ {
+          "departs_at" : "2018-09-13T17:45",
+          "arrives_at" : "2018-09-13T19:20",
+          "origin" : {
+            "airport" : "ZAG"
+          },
+          "destination" : {
+            "airport" : "ZRH"
+          },
+          "marketing_airline" : "LX",
+          "operating_airline" : "OU",
+          "flight_number" : "4253",
+          "aircraft" : "DH4",
+          "booking_info" : {
+            "travel_class" : "BUSINESS",
+            "booking_code" : "D",
+            "seats_remaining" : 2
+          }
+        }, {
+          "departs_at" : "2018-09-14T07:05",
+          "arrives_at" : "2018-09-14T07:55",
+          "origin" : {
+            "airport" : "ZRH"
+          },
+          "destination" : {
+            "airport" : "LHR",
+            "terminal" : "2"
+          },
+          "marketing_airline" : "LX",
+          "operating_airline" : "LX",
+          "flight_number" : "316",
+          "aircraft" : "319",
+          "booking_info" : {
+            "travel_class" : "BUSINESS",
+            "booking_code" : "D",
+            "seats_remaining" : 2
+          }
+        } ]
+      },
+      "inbound" : {
+        "duration" : "06:45",
+        "flights" : [ {
+          "departs_at" : "2018-09-15T13:45",
+          "arrives_at" : "2018-09-15T16:30",
+          "origin" : {
+            "airport" : "LHR",
+            "terminal" : "2"
+          },
+          "destination" : {
+            "airport" : "ZRH"
+          },
+          "marketing_airline" : "LX",
+          "operating_airline" : "LX",
+          "flight_number" : "333",
+          "aircraft" : "320",
+          "booking_info" : {
+            "travel_class" : "BUSINESS",
+            "booking_code" : "D",
+            "seats_remaining" : 2
+          }
+        }, {
+          "departs_at" : "2018-09-15T20:05",
+          "arrives_at" : "2018-09-15T21:30",
+          "origin" : {
+            "airport" : "ZRH"
+          },
+          "destination" : {
+            "airport" : "ZAG"
+          },
+          "marketing_airline" : "LX",
+          "operating_airline" : "OU",
+          "flight_number" : "4252",
+          "aircraft" : "DH4",
+          "booking_info" : {
+            "travel_class" : "BUSINESS",
+            "booking_code" : "D",
+            "seats_remaining" : 2
+          }
+        } ]
+      }
+    } ],
+    "fare" : {
+      "total_price" : "6641.00",
+      "price_per_adult" : {
+        "total_fare" : "6641.00",
+        "tax" : "2232.00"
+      },
+      "restrictions" : {
+        "refundable" : false,
+        "change_penalties" : true
+      }
+    }
+  } ]
+}

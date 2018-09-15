@@ -1,0 +1,51 @@
+﻿<Window x:Class="KingICTExample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KingICTExample"
+        mc:Ignorable="d"
+        Title="Search Low Cost Flights" Height="395.959" Width="1179.924" WindowStartupLocation="CenterScreen">
+    <Grid Margin="0,0,2,0" Height="350" VerticalAlignment="Top">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1047*"/>
+            <ColumnDefinition Width="77*"/>
+        </Grid.ColumnDefinitions>
+
+        <Label x:Name="lblOrigin" Content="ORIGIN*" HorizontalAlignment="Left" Margin="98,26,0,0" VerticalAlignment="Top"/>
+        <Label HorizontalAlignment="Left" Margin="64,57,0,0" VerticalAlignment="Top" Height="33" Width="78"/>
+        <Label Content="DESTINATION*" HorizontalAlignment="Left" Margin="64,64,0,0" VerticalAlignment="Top"/>
+        <Label Content="ADULTS" HorizontalAlignment="Left" Margin="96,106,0,0" VerticalAlignment="Top" Width="52"/>
+        <Label Content="CURRENCY" HorizontalAlignment="Left" Margin="79,147,0,0" VerticalAlignment="Top"/>
+        <Label Content="DEPARTUE DATE*" HorizontalAlignment="Left" Margin="47,189,0,0" VerticalAlignment="Top"/>
+        <DatePicker x:Name="datePickStart" HorizontalAlignment="Left" Margin="186,189,0,0" VerticalAlignment="Top" Height="26" Width="120" FirstDayOfWeek="Monday" SelectedDateFormat="Short" SelectedDateChanged="datePickStart_SelectedDateChanged"/>
+        <ComboBox x:Name="cmbOrigin" HorizontalAlignment="Left" Margin="186,26,0,0" VerticalAlignment="Top" Width="120" Height="26"/>
+        <ComboBox x:Name="cmbDestination" HorizontalAlignment="Left" Margin="186,64,0,0" VerticalAlignment="Top" Width="120" Height="26"/>
+        <ComboBox x:Name="cmbAdults" HorizontalAlignment="Left" Margin="186,106,0,0" VerticalAlignment="Top" Width="120" Height="26"/>
+        <ComboBox x:Name="cmbCurrency" HorizontalAlignment="Left" Margin="186,147,0,0" VerticalAlignment="Top" Width="120" Height="26"/>
+        <Button Content="SEARCH" HorizontalAlignment="Left" Margin="119,316,0,0" VerticalAlignment="Top" Width="120" Height="24" Click="Button_Click"/>
+        <Label Content="RETURN DATE*" HorizontalAlignment="Left" Margin="64,227,0,0" VerticalAlignment="Top"/>
+        <DatePicker x:Name="datePickEnd" HorizontalAlignment="Left" Margin="186,227,0,0" VerticalAlignment="Top" Height="26" Width="120" SelectedDateChanged="datePickEnd_SelectedDateChanged"/>
+        <Label Content="NUMBER OF RESULTS" HorizontalAlignment="Left" Margin="23,266,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="cmbNumberOfResult" HorizontalAlignment="Left" Margin="186,266,0,0" VerticalAlignment="Top" Width="120" Height="26"/>
+        <Button x:Name="btnClose" Content="CLOSE" HorizontalAlignment="Left" Margin="984,316,0,0" VerticalAlignment="Top" Width="120" Height="24" Grid.ColumnSpan="2" Click="btnClose_Click"/>
+        <ListView HorizontalAlignment="Left" Height="264" Margin="323,28,0,0" VerticalAlignment="Top" Width="837" SelectionMode="Single" x:Name="lbResults" Grid.ColumnSpan="2">
+            <ListView.View >
+                <GridView AllowsColumnReorder="False">
+                    <GridViewColumn Header="Origin" DisplayMemberBinding="{Binding Origin}" Width="120" />
+                    <GridViewColumn Header="Destination" DisplayMemberBinding="{Binding Destination}" Width="120" />
+                    <GridViewColumn Header="Leave Date" DisplayMemberBinding="{Binding LeaveDate}" Width="140" />
+                    <GridViewColumn Header="Return Date" DisplayMemberBinding="{Binding ReturnDate}" Width="140" />
+                    <GridViewColumn Header="Transfers" DisplayMemberBinding="{Binding Transfers}" Width="80" />
+                    <GridViewColumn Header="Passangers" DisplayMemberBinding="{Binding Passangers}" Width="80" />
+                    <GridViewColumn Header="Currency" DisplayMemberBinding="{Binding Currency}" Width="70" />
+                    <GridViewColumn Header="Fare" DisplayMemberBinding="{Binding Fare}" Width="80" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Label Content="*required " HorizontalAlignment="Left" Height="37" Margin="323,292,0,0" VerticalAlignment="Top" Width="92"/>
+
+
+    </Grid>
+
+</Window>
